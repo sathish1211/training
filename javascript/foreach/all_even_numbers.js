@@ -1,0 +1,10 @@
+n=50
+even=[]
+k=0
+for(i=1;i<=n;i++){
+    if(i%2==0){
+      even[k]=i;
+      k++;
+    }
+}
+even.forEach(e=>console.log(e))
