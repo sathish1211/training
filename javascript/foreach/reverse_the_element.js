@@ -1,9 +1,9 @@
 a=[1,2,3,4]
 b=[]
 k=0
-for(i=a.length;i>=0;i++){
-     b[k]==i++;
+for(i=a.length-1;i>=0;i--){
+     b[k]=a[i];
      k++;
 }
-y=b.forEach(e=>e)
-console.log(y)
+b.forEach(e=>console.log(e))
+
