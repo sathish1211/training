@@ -1,10 +1,9 @@
-n=50
-even=[]
-k=0
-for(i=1;i<=n;i++){
+even=[50]
+array=[]
+even.forEach(e=>{
+  for(i=1;i<=e;i++){
     if(i%2==0){
-      even[k]=i;
-      k++;
+      array.push(i)
     }
-}
-even.forEach(e=>console.log(e))
+}})
+console.log(array);

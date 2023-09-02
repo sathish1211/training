@@ -3,8 +3,8 @@ b=[]
 a.forEach(e=>{
     c=[]
     for (let i = 0; i < e.length; i++) {
-        if (i ==1) {
-          c+=String.fromCharCode(e.charCodeAt(1)-32);
+        if (i %2 ==1) {
+          c+="Z";
         } else {
           c += e[i];
         }
