@@ -35,3 +35,21 @@ b=[1,2,3,4,8.,10]
 
 // n=b.map(e=> e*e)
 // console.log(n)
+
+
+//filter
+
+// a1=b.filter(e=> e%2 ==0 );
+
+// a2=b.map(e=>{
+//     if(e%2==0)
+//       return e;
+// })
+// console.log(a1)
+// console.log(a2)
+total=b.reduce((a,b)=>{
+    console.log(a+"a")
+    console.log(b+"b")
+    return a+b;
+},0)
+console.log(total)
