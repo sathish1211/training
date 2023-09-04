@@ -1,9 +1,13 @@
-even=[50,20 ,100]
+even=[50,100]
 array=[]
 even.forEach(e=>{
+  k=0
   for(i=1;i<=e;i++){
     if(i%2==0){
-      array.push(i)
+      array[k]=i;
+      k++;
     }
-}})
-console.log(array);
+  }
+  console.log(array);
+  console.log("_______________")
+})
