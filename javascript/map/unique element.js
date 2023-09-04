@@ -9,7 +9,6 @@ unique=a.map((e,index,b)=>{
    }
    if(count==0){
       d.push(e);
-      return e;
+      console.log(e)
    }
 })
-console.log(unique)
