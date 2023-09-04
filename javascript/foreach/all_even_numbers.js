@@ -1,4 +1,4 @@
-even=[50]
+even=[50,20 ,100]
 array=[]
 even.forEach(e=>{
   for(i=1;i<=e;i++){
