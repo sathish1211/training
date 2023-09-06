@@ -61,7 +61,7 @@ header h2{
     width: 412px;
     height:218px;
     color: #000;
-    background: url(image/beauty.gif) top left no-repeat;
+    background: transparent url(image/beauty.gif) top left no-repeat;
 }
 .extra2{
     position: absolute;
@@ -70,7 +70,7 @@ header h2{
     width: 582px;
     height:17px;
     color: #fff;
-    background: url(image/streifen.gif) top left no-repeat;
+    background:transparent url(image/streifen.gif) top left no-repeat;
 }
 .extra3{
     position: absolute;
@@ -79,16 +79,16 @@ header h2{
     width: 199px;
     height:218px;
     color: #000;
-    background: url(image/graeser.gif) top left no-repeat;
+    background:transparent url(image/graeser.gif) top left no-repeat;
 }
 .extra4{
     position: absolute;
-top: 235px;
-left: 244px;
-width: 350px;
-height:175px;
-color: #000;
-background: url(image/seerosen.gif) top left no-repeat;
+    top: 235px;
+    left: 244px;
+    width: 350px;
+    height:175px;
+    color: #000;
+    background:transparent url(image/seerosen.gif) top left no-repeat;
 }
 .summary{
     width: 200px;
@@ -154,11 +154,11 @@ background: url(image/seerosen.gif) top left no-repeat;
 .design-selection a.designer-name {
     display: inline;
     font-weight: normal;
-    }
+}
 .design-selection a:hover a.designer-name {
     display: inline;
     font-weight: normal;
-    }
+}
 .design-archives li{
     padding: 0 0 10px 0;
     text-transform: lowercase;
@@ -180,8 +180,7 @@ background: url(image/seerosen.gif) top left no-repeat;
     color: #900;
     background: #F1ECE3 url(image/linkhover.gif) 0 3px no-repeat;
     text-decoration: none;
-    }
-    
+}   
 .zen-resources li{
     padding: 0 0 10px 0;
     text-transform: lowercase;
@@ -198,12 +197,12 @@ background: url(image/seerosen.gif) top left no-repeat;
 .zen-resources a:visited {
     color: #000;
     background: #F1ECE3 url(image/link.gif) 0 3px no-repeat;
-    }
+}
 .zen-resources a:hover, .zen-resources a:active {
     color: #900;
     background: #F1ECE3 url(image/linkhover.gif) 0 3px no-repeat;
     text-decoration: none;
-    }
+}
 .supporting{
     margin: 0 0 0 13.5em;
     clear:both;
@@ -330,18 +329,18 @@ footer{
 }
 footer a:link,footer a:visited{
     color: #069;
-    background: url(image/link.gif) left no-repeat;
+    background:transparent url(image/link.gif) left no-repeat;
 }
 footer a {
     padding: 0 10px 0 15px;
     color: #069;
     background: transparent url(image/link.gif) left no-repeat;
-    }
+}
 footer a:link, footer a:visited {
     color: #069;
     background: transparent url(image/link.gif) left no-repeat;
-    }
+}
 footer a:hover, footer a:active {
     color: #900;
     background: transparent url(image/linkhover.gif) left no-repeat;
-    }
+}
