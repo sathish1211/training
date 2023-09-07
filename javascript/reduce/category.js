@@ -33,13 +33,16 @@ a = [
     }
 ];
 
-totalcost = a.reduce(e =>{
-    
-   //console.log(e)
-    x = { };
-    x[e.category] = e.cost;
-    return x;
-});
-console.log(totalcost); //Incomplete
+totalcost = a.reduce((e,b) =>{
+    if(!e[b.category]){
+        e[b.category]=b.cost;
+    }
+    else{
+        e[b.category]=e[b.category]+b.cost;
+    }
+    return e;
+}
+,{});
+console.log(totalcost); 
 
 
