@@ -6,11 +6,11 @@ div{
     margin: 10px;
     display: flex;
     gap:10px;  
-    justify-content:space-evenly; 
+    justify-content:space-around; 
 }
 h3{
   text-align: center;
-
+  margin: 20px;
 }
 .row_1{
     background-color:rgb(13, 234, 149);
@@ -244,6 +244,5 @@ p{
 }
 h4{
     padding-top: 20px;
-    margin: 10px;
     color: rgb(250, 5, 229);
 }
