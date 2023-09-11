@@ -1,0 +1,242 @@
+body{
+    font-size: 20px;
+    text-align: center;
+}
+div{
+    margin: 10px;
+    display: flex;
+    gap:10px;   
+}
+h3{
+  text-align: left;
+}
+.row_1{
+    background-color:rgb(13, 234, 149);
+    flex-direction: row;
+    width: 500px;
+}
+.row-reverse{
+    background-color: rgb(6, 220, 236);
+    width: 500px;
+    flex-direction: row-reverse;
+}
+
+.column1{
+    background-color: rgb(13,234,149);
+    flex-direction: column;
+    width:500px;
+}
+.column-reverse{
+    background-color: rgb(6, 220, 236);
+    width: 500px;
+    flex-direction: column-reverse;
+}
+.wrap1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-wrap: wrap;
+}
+.wrap2{
+    background-color: rgb(6, 220, 236);
+    width:500PX ;
+    flex-wrap: wrap-reverse;
+}
+.wrap3{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.wrap4{
+    background-color: rgb(6, 220, 236);
+    width:500PX ;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    height: 150px;
+}
+.flow1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-flow: row wrap;
+}
+.flow2{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    flex-flow: row-reverse wrap;
+}
+.flow3{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-direction: column;
+    flex-flow: column wrap-reverse;
+    height: 150px;
+}
+.flow4{
+    background-color: rgb(6, 220, 236);
+    width:500PX ;
+    flex-direction: column;
+    flex-flow: column-reverse wrap-reverse;
+    height: 150px;
+}
+.order1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+}
+.order2{
+    background-color: rgb(6, 220, 236);
+    width:500PX ;
+}
+.item5{
+    order: -1;
+}
+.item4{
+    order: 1;
+}
+.jc1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    justify-content: flex-start;
+}
+.jc2{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    justify-content: flex-end;
+}
+.jc3{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    justify-content: center;
+}
+.jc4{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    justify-content: space-evenly;
+}
+.jc5{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    justify-content: space-around;
+}
+.jc6{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    justify-content: space-between;
+}
+.ac1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 300px;
+}
+.ac2{
+    background-color: rgb(6,220,236);
+    width:500px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.ac3{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 300px;
+}
+.ac4{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.ac5{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 300px;
+}
+.ac6{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.ai1{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    align-items: flex-start;
+    height:200px;
+}
+.ai2{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    align-items: flex-end;
+    height:200px;
+}
+.ai3{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    align-items: center;
+    height:200px;
+}
+.ai4{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+    align-items: baseline;
+    height:200px;
+}
+.items1{
+    height: 100px;
+    padding-top:40px ;
+}
+.items2{
+    height: 30px;
+    padding-top: 10px;
+}
+.items3{
+    height: 150px;
+    padding-top: 40px;
+}
+.as{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+    height:200px;
+    align-items: baseline;
+}
+.items_1{
+    align-self: flex-end;
+}
+.items_2{
+    align-self: center;
+}
+.items_4{
+    align-self: center;
+}
+.items_5{
+    align-self:flex-end ;
+}
+.items_6{
+    align-self: center;
+    height: 150px ;
+}
+.fg{
+    background-color: rgb(13,234,149);
+    width:500PX ;
+}
+.fg1{
+    flex-grow: 2;
+}
+.fg_1{
+    background-color: rgb(6,220,236);
+    width:500PX ;
+}
+.fg4,.fg6,.fg5{
+    flex-grow: 1;
+}
+p{
+    background-color: wheat;
+    width:40px ;
+    height: 40px;
+    margin: 10px;   
+}
