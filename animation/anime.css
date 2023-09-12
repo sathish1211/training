@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-/* .box:hover{
+.box:hover{
     background-color: aqua;
     width: 200px;
     height: 200px;
@@ -33,13 +33,13 @@ body{
     100%{
         transform: translateY(-300px) rotateZ(-360deg);
     }
-} */
-div{
+} 
+/* div{
     height:500px;
     width:750px;
 margin: 0 auto;
 border:2px solid red;
-}
+} */
 .box{
    height:100px;
    width:100px;
@@ -79,4 +79,12 @@ border:2px solid red;
     60%{ transform: translateX(360px) translateY(400px)}
     80%{ transform: translateX(480px) translateY(0px)}
     100%{ transform: translateX(650px) translateY(400px)}
+}
+.sceen{
+    width: 600px;
+    height:500px;
+    border: 2px dotted darkkhaki;
+}
+.card{
+    
 }
