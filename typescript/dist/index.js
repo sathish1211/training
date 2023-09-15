@@ -93,3 +93,8 @@
 //     }
 // let c=sum(1,2,3,4)
 // console.log(c)
+// function sum (b:number[]):number[] {
+//            return b.map(e=>e*e);
+//         }
+// let c:number[]=sum([1,2,3,4])
+// console.log(c)
