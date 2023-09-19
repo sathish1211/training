@@ -34,12 +34,12 @@ body{
         transform: translateY(-300px) rotateZ(-360deg);
     }
 } 
-/* div{
-    height:500px;
-    width:750px;
-margin: 0 auto;
-border:2px solid red;
-} */
+    /* div{
+        height:500px;
+        width:750px;
+    margin: 0 auto;
+    border:2px solid red;
+    } */
 .box{
    height:100px;
    width:100px;
@@ -92,6 +92,7 @@ border:2px solid red;
     height: 100%;  
     position: relative; 
     transform-style:preserve-3d ;
+    transition:transform 2s;
 }
 .cardface{
     width: 100%;
@@ -100,10 +101,15 @@ border:2px solid red;
     font-size: 2rem;
     line-height: 200px;
     position: absolute;
+    backface-visibility: hidden;
 }
 .front{
-    background-color: red;
+    background-color: rgba(255,0,0,0);
 }
 .back{
     background-color: green;
+    transform: rotateY(180deg);
 }
+.card:hover{
+    transform: rotateY(180deg);
+} 
