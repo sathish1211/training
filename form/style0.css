@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: baseline; */
+}
+legend{
+    text-align: center;
+}
+div{
+   width:200px;
+}
+input{
+    margin-top: 12px;
+}
