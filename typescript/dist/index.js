@@ -98,3 +98,37 @@
 //         }
 // let c:number[]=sum([1,2,3,4])
 // console.log(c)
+//Interface
+// class Myclass{
+//     readonly c:number=3;    //telling perticular property is readonly.Read only can be changed only constructor.
+//     // a:number;
+//     b:number=2;
+//     a!:number;  //assian operators(initialized the value in some where in program)
+//     constructor(){
+//         // this.a=1;
+//         this.c=20;      //get value to the variable(geter method)
+//     }
+// }
+// let o=new Myclass()
+// // console.log(o.a,o.b)
+// o.a=5;      //set the value to varible(seter method)
+// o.b=10;
+// console.log(o.a,o.b,o.c)
+//GET AND SET (ACCESS METHOD)
+class Myclass {
+    constructor() {
+        this._val = "sathish"; //_val its is private variable
+    }
+    get val() {
+        console.log("good day");
+        return this._val;
+    }
+    set val(a) {
+        console.log("good");
+        this._val = String(a);
+    }
+}
+let o = new Myclass();
+// o.val=50;
+console.log(o.val = 50);
+console.log(o.val);
