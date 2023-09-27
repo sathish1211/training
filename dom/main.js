@@ -19,5 +19,12 @@ let inputfood=document.getElementById(food_items)
 let btn=document.getElementById(click)
 let display=document.getElementById(food)
 btn.addEventListener('click', ()=>{
-  display.innerHTML+=`<li>${inputfood.value}</li>`;}
+  const li=document.createElement('li')
+  const text=document.createTextNode(inputfood.value)
+  const comment=document.createComment("Creating ali")
+  li.append(text)
+  li.append(comment)
+  display.append(li)
+  // display.innerHTML+=`<li>${inputfood.value}</li>`;
+}
   )
