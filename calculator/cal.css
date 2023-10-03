@@ -22,7 +22,7 @@ input{
     border:none;
     outline: none;
     width:380px;
-    height:180px;
+    height:130px;
     border-radius: 20px;
     background-color: #4361ee;
     font-size: 20px;
@@ -71,6 +71,12 @@ button:hover{
     border-radius: 5px;
 }
 .result{
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align:right ;
+}
+.result1{
     height: 100px;
     margin: 0 10px;
     border-radius: 10px;
