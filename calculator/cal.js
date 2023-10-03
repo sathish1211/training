@@ -14,7 +14,7 @@ Array.from(buttons).forEach(button => {
             textbox.value=textbox.value.slice(0,-1);
         else if (buttonText === "=") 
         {
-            resultBefore.innerHTML += textbox+ " = " + result ;
+            resultBefore.innerHTML += textbox.value + " = " + result.innerText +"<br>" ;
             textbox.value=result.innerText;
             result.innerText=" ";
         }
@@ -23,7 +23,7 @@ Array.from(buttons).forEach(button => {
             var numbers=textbox.value.match(/\d+(\.\d+)?/g).reverse();
             var operation=textbox.value.match(/[\+\-\x\%\÷]/g).reverse();
             while(operation!=0){
-                var symbol=operation.pop();
+                var symbol=operation.pop(); 
                 if(symbol=="+"){
                      num1=parseFloat(numbers.pop());
                      num2=parseFloat(numbers.pop());
