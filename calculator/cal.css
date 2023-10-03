@@ -64,13 +64,13 @@ button:hover{
     display: flex;
     justify-content: center;
 }
-.event{
+.display{
     width:30%;
     height:10%;
     background-color:grey;
     border-radius: 5px;
 }
-.display{
+.result{
     height: 100px;
     margin: 0 10px;
     border-radius: 10px;
