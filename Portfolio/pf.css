@@ -5,15 +5,48 @@ body{
     background-color: #1b263b;
     color: white;
     font-size: 20px;
+    /* background-image: url(image/music-wallpaper-preview.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#skills,#project{
+    padding-top: 100px;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
 .section{
     min-height: 100vh;
     padding:50px ;
 }
-img{ 
+#home img,#about img{ 
     height:75vh;
     width: 35vw;
     border-radius: 50%;
+    /* box-shadow: 0 0 20px aqua; */
+}
+.btn{
+    display: inline-block;
+    margin: 20px 0;
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px aqua;
+}
+.btn:hover{
+    color:black
+}
+.title{
+    text-align: center;
+    font-size:30px;
 }
 nav{
     display: flex;
@@ -50,6 +83,8 @@ a:active{
 }
 span{
     color: aqua;
+    border: none;
+    text-shadow: 0 0 30px aqua;
 }
 .home-content h3{
     font-size:30px;
@@ -75,33 +110,90 @@ span{
     background: aqua;
     color:white;
 }
-.btn{
-    display: inline-block;
-    margin: 20px 0;
-    background-color: aqua;
-    padding: 10px;
-    color: black;
-    border-radius: 20px;
-    box-shadow: 0 0 20px aqua;
-}
-.btn:hover{
-    color:black
-}
 #about{
     display:flex;
     justify-content: center;
     align-items: center;
     gap:50px;
-    margin-top: 150px;
+    margin-top: 100px;
+    padding: 100px;
 }
-.title{
-    text-align: center;
-    font-size:30px;
-}
+
 .about-content h1,h3{
     text-align: left;
 }
 .about-content p{
     font-size: 20px;
     width:75%;   
+}  
+
+.skills-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-content .skills-card{
+    margin: 50px;
+    width:20vw;
+    background-color:#01243c;
+    padding:10px 20px;
+    border-radius: 50px;
+    align-items: center;
+    border:2px solid #00406a;
+    box-shadow:0 0 20px #00406a;
+    transition: 1s ease;
+}
+.skills-content .skills-card:hover{
+    cursor: pointer;
+    border-color: aqua;
+    transform: scale(1.2);
+}
+.skills-box p,.btn{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+.project-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+} 
+.project-card{
+    width:30vw;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #00406a ;
+    overflow: hidden;
+    display: flex;
+    
+}
+.project-layer{
+    position: absolute;
+    bottom:0;  
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.1),aqua);
+    transform:translateY(100%);
+    transition: 1s ease;
+}
+.project-card:hover .project-layer{
+    cursor: pointer;
+    transform: translateY(0%);
+}
+.project-card img{
+    width: 50vw;
+    height: 50vh;
+    transition: .5s ease ;
+}
+.project-card:hover img {
+    transform: scale(1.2);
+}
+.project-layer a{
+    font-size: 40px;
+}
+.project-layer a i{
+    width:50px;
+    height: 50px;
 }
