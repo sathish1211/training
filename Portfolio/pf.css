@@ -1,5 +1,5 @@
 body{
-    margin: 30px;
+    margin: 50px;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #1b263b;
@@ -12,15 +12,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
 }
-#skills,#project{
-    padding-top: 100px;
+#skills,#project,#contact{
+    padding: 100px 0;
 }
-.header{
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
+#project h1,#contact h1{
+    padding-bottom:50px ;
 }
 .section{
     min-height: 100vh;
@@ -42,11 +38,24 @@ body{
     box-shadow: 0 0 20px aqua;
 }
 .btn:hover{
-    color:black
+    color:black;
+    cursor: pointer;
 }
 .title{
     text-align: center;
     font-size:30px;
+}
+/*commom css property*/
+
+/*Header css property*/
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #0096c7;
+    z-index: 1;
 }
 nav{
     display: flex;
@@ -75,6 +84,10 @@ a:hover{
 a:active{
     color: #80ed99;
 }
+/*End*/
+
+
+/*Home page css property*/
 #home{
    margin:50px auto ;
    display: flex;
@@ -110,13 +123,17 @@ span{
     background: aqua;
     color:white;
 }
+/*End*/
+
+
+/*About page css property*/
 #about{
     display:flex;
     justify-content: center;
     align-items: center;
     gap:50px;
-    margin-top: 100px;
-    padding: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .about-content h1,h3{
@@ -124,9 +141,13 @@ span{
 }
 .about-content p{
     font-size: 20px;
-    width:75%;   
+    width:100%;  
+    line-height: 2; 
 }  
+/*End*/
 
+
+/* skills css property*/
 .skills-content{
     display:flex;
     justify-content: center;
@@ -145,7 +166,7 @@ span{
     transition: 1s ease;
 }
 .skills-content .skills-card:hover{
-    cursor: pointer;
+    
     border-color: aqua;
     transform: scale(1.2);
 }
@@ -153,7 +174,10 @@ span{
     font-size: 20px;
     margin: 10px 20px;
 }
+/*End*/
 
+
+/*project css property*/
 .project-content{
     display:flex;
     justify-content: center;
@@ -162,7 +186,7 @@ span{
     gap: 50px;
 } 
 .project-card{
-    width:30vw;
+    width:25vw;
     position: relative;
     border-radius: 50px;
     box-shadow: 0 0 20px #00406a ;
@@ -183,7 +207,7 @@ span{
     transform: translateY(0%);
 }
 .project-card img{
-    width: 50vw;
+    width: 100vw;
     height: 50vh;
     transition: .5s ease ;
 }
@@ -193,7 +217,50 @@ span{
 .project-layer a{
     font-size: 40px;
 }
+.project-layer p{
+    color:#051923;
+}
+.project-layer a:hover{
+    color:greenyellow;
+}
 .project-layer a i{
     width:50px;
     height: 50px;
 }
+/*End*/
+
+
+/*Contact css property*/
+#contact form{
+    max-width:75%;
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contact form .input{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+::placeholder{
+    color: white;
+}
+#contact  form .input input{
+    width: 45%;
+    padding: 20px;
+    font-size:20px;
+    color: white;
+    background: #00406a ;
+    border-radius: 10px;
+    margin: 10px 0;  
+}
+#contact form textarea{
+    width: 50%;
+    margin: 0 300px;
+    padding: 20px;
+    font-size:20px;
+    color: white;
+    background: #00406a ;
+    border-radius: 10px;
+}
+/* End css property*/
