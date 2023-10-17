@@ -5,12 +5,6 @@ body{
     background-color: #1b263b;
     color: white;
     font-size: 20px;
-    /* background-image: url(image/music-wallpaper-preview.jpg);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 #skills,#project,#contact{
     padding: 100px 0;
@@ -26,7 +20,6 @@ body{
     height:75vh;
     width: 35vw;
     border-radius: 50%;
-    /* box-shadow: 0 0 20px aqua; */
 }
 .btn{
     display: inline-block;
@@ -90,6 +83,7 @@ a:active{
 /*Home page css property*/
 #home{
    margin:50px auto ;
+   padding-top:100px;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
@@ -132,8 +126,8 @@ span{
     justify-content: center;
     align-items: center;
     gap:50px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top:100px ;
+    margin: 50px 0;
 }
 
 .about-content h1,h3{
@@ -235,7 +229,6 @@ span{
     max-width:75%;
     margin: 20px auto;
     text-align: center;
-    margin-bottom: 30px;
 }
 #contact form .input{
     display: flex;
@@ -257,7 +250,6 @@ span{
 #contact form textarea{
     width: 50%;
     margin: 0 300px;
-    padding: 20px;
     font-size:20px;
     color: white;
     background: #00406a ;
